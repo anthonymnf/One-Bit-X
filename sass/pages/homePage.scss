@@ -1,0 +1,48 @@
+.container00 {
+  &.container01 {
+    background-image: url(../../Imagens/home/01.jpg);
+  }
+  &.container02 {
+    background-image: url(../../Imagens/home/03.jpg);
+  }
+  &.container03 {
+    background-image: url(../../Imagens/home/02.gif);
+  }
+  &.container04 {
+    background-image: url(../../Imagens/home/04.jpg);
+  }
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+//Media Query
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .titlePadding {
+    padding-top: 70px;
+  }
+
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 35px;
+  }
+}

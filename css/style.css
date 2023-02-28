@@ -1,0 +1,371 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap);
+* {
+  color: white;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+.header #nav-hover:hover {
+  color: #b9b9b9;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container00.container09 {
+  background-color: black;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container00.container09 a {
+  color: #555252;
+  text-decoration: none;
+}
+.container00.container09 a:hover {
+  color: #b9b9b9;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 100px;
+  margin-top: 5px;
+}
+
+.arrowPadding {
+  padding-top: 10%;
+}
+
+.logoPc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 30px;
+}
+
+#button {
+  padding: 15px 35px;
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copyright {
+  color: #555252;
+}
+
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.titlePadding {
+  padding-top: 200px;
+}
+
+.container00.container01 {
+  background-image: url(../../Imagens/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../../Imagens/home/03.jpg);
+}
+.container00.container03 {
+  background-image: url(../../Imagens/home/02.gif);
+}
+.container00.container04 {
+  background-image: url(../../Imagens/home/04.jpg);
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+.mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .titlePadding {
+    padding-top: 70px;
+  }
+  .shortTitle,
+.mediumTitle {
+    width: auto;
+    font-size: 35px;
+  }
+}
+.container00.container05 {
+  background-image: url(../../Imagens/falcon9/01.jpg);
+}
+.container00.container07 {
+  background-image: url(../../Imagens/falcon9/02.jpg);
+  display: grid;
+  align-items: center;
+  justify-content: left;
+}
+.container00.container07 .textContainer07 {
+  font-size: 25px;
+  line-height: 50px;
+  width: 50%;
+  margin-left: 5%;
+}
+.container00.container08 {
+  display: flex;
+  align-items: center;
+  background-image: url(../../Imagens/falcon9/08.jpg);
+}
+.container00.carrossel01 {
+  background-image: url(../../Imagens/falcon9/03.jpg);
+}
+.container00.carrossel02 {
+  background-image: url(../../Imagens/falcon9/04.jpg);
+}
+.container00.carrossel03 {
+  background-image: url(../../Imagens/falcon9/05.jpg);
+}
+.container00.carrossel04 {
+  background-image: url(../../Imagens/falcon9/06.jpg);
+}
+.container00.carrossel05 {
+  background-image: url(../../Imagens/falcon9/07.jpg);
+}
+
+.container06 {
+  background-color: black;
+  width: 100%;
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.titleNumb {
+  font-size: 90px;
+  font-weight: 410;
+}
+
+.subTitleNumb {
+  font-size: 30px;
+}
+
+.text-large {
+  font-size: 100px;
+}
+
+.text-small {
+  font-size: 30px;
+}
+
+#overViewPosition {
+  width: 43%;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+#merlinContainer {
+  width: 46%;
+  justify-content: left;
+  margin-left: 5%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .titleNumb {
+    font-size: 80px;
+  }
+  .subTitleNumb {
+    font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .subtitleFalcon9 {
+    font-size: 20px;
+  }
+  .titleNumb {
+    font-size: 55px;
+  }
+  .subTitleNumb {
+    font-size: 18px;
+  }
+  .container07 p {
+    font-size: 20px;
+    width: 290px;
+    line-height: auto;
+  }
+  .container08 {
+    font-size: 20px;
+  }
+  .container08 p {
+    width: 280px;
+    margin-left: 1%;
+  }
+  .container08 table {
+    font-size: 18px;
+  }
+}
+.container00.container10 {
+  background-image: url(../../Imagens/humanFlight/01.jpg);
+}
+.container00.container10 .titleHSF {
+  font-size: 100px;
+}
+.container00.container10 .subtitleHSF {
+  font-size: 30px;
+  font-weight: 300;
+}
+.container00.container12 {
+  background-image: url(../../Imagens/humanFlight/02.jpg);
+}
+.container00.container13 {
+  background-image: url(../../Imagens/humanFlight/03.jpg);
+}
+.container00.container14 {
+  background-image: url(../../Imagens/humanFlight/04.jpg);
+}
+.container00.container15 {
+  background-image: url(../../Imagens/humanFlight/05.jpg);
+}
+
+.container11 {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container11 p {
+  color: #d8d8d8;
+  font-size: 20px;
+  font-weight: 400;
+}
+.container11 a {
+  color: #555252;
+  text-decoration: none;
+}
+.container11 a:hover {
+  color: #b9b9b9;
+}
+
+.titleLitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.titleLarge {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+@media (max-width: 768px) {
+  .container11 {
+    height: auto;
+  }
+}
+@media (max-width: 590px) {
+  .container00.container10 .titleHSF {
+    font-size: 50px;
+  }
+  .container00.container10 .subtitleHSF {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .container00.container10 .arrowDown {
+    display: none;
+  }
+  .titleLitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+  .titleLarge {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .containerRightContent {
+    margin-left: 45%;
+    padding-top: 15%;
+  }
+  .containerLeftContent {
+    margin-left: 3%;
+    padding-top: 15%;
+  }
+  .container11 p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 375px) {
+  .container00.container10 .titleHSF {
+    font-size: 35px;
+  }
+  .container00.container10 .subtitleHSF {
+    font-size: 17px;
+    font-weight: 300;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

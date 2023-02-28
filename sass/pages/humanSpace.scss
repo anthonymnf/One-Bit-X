@@ -1,0 +1,128 @@
+.container00 {
+  &.container10 {
+    background-image: url(../../Imagens/humanFlight/01.jpg);
+    .titleHSF {
+      font-size: 100px;
+    }
+    .subtitleHSF {
+      font-size: 30px;
+      font-weight: 300;
+    }
+  }
+  &.container12 {
+    background-image: url(../../Imagens/humanFlight/02.jpg);
+  }
+  &.container13 {
+    background-image: url(../../Imagens/humanFlight/03.jpg);
+  }
+  &.container14 {
+    background-image: url(../../Imagens/humanFlight/04.jpg);
+  }
+  &.container15 {
+    background-image: url(../../Imagens/humanFlight/05.jpg);
+  }
+}
+
+.container11 {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: $table-item-color;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  a {
+    color: $copyright-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}
+
+.titleLitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.titleLarge {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+@media (max-width: 768px) {
+  .container11 {
+    height: auto;
+  }
+}
+
+@media (max-width: 590px) {
+  .container00 {
+    &.container10 {
+      .titleHSF {
+        font-size: 50px;
+      }
+      .subtitleHSF {
+        font-size: 20px;
+        font-weight: 300;
+      }
+      .arrowDown {
+        display: none;
+      }
+    }
+  }
+  .titleLitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .titleLarge {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .containerRightContent {
+    margin-left: 45%;
+    padding-top: 15%;
+  }
+
+  .containerLeftContent {
+    margin-left: 3%;
+    padding-top: 15%;
+  }
+  .container11 {
+    p {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .container00 {
+    &.container10 {
+      .titleHSF {
+        font-size: 35px;
+      }
+      .subtitleHSF {
+        font-size: 17px;
+        font-weight: 300;
+      }
+    }
+  }
+}

@@ -1,0 +1,127 @@
+.container00 {
+  &.container05 {
+    background-image: url(../../Imagens/falcon9/01.jpg);
+  }
+  &.container07 {
+    background-image: url(../../Imagens/falcon9/02.jpg);
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    .textContainer07 {
+      font-size: 25px;
+      line-height: 50px;
+      width: 50%;
+      margin-left: 5%;
+    }
+  }
+  &.container08 {
+    display: flex;
+    align-items: center;
+    background-image: url(../../Imagens/falcon9/08.jpg);
+  }
+
+  &.carrossel01 {
+    background-image: url(../../Imagens/falcon9/03.jpg);
+  }
+  &.carrossel02 {
+    background-image: url(../../Imagens/falcon9/04.jpg);
+  }
+  &.carrossel03 {
+    background-image: url(../../Imagens/falcon9/05.jpg);
+  }
+  &.carrossel04 {
+    background-image: url(../../Imagens/falcon9/06.jpg);
+  }
+  &.carrossel05 {
+    background-image: url(../../Imagens/falcon9/07.jpg);
+  }
+}
+.container06 {
+  background-color: black;
+  width: 100%;
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.titleNumb {
+  font-size: 90px;
+  font-weight: 410;
+}
+.subTitleNumb {
+  font-size: 30px;
+}
+.text-large {
+  font-size: 100px;
+}
+
+.text-small {
+  font-size: 30px;
+}
+
+#overViewPosition {
+  width: 43%;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+#merlinContainer {
+  width: 46%;
+  justify-content: left;
+  margin-left: 5%;
+}
+
+.carrosselSlide {
+  img {
+    height: 100vh;
+  }
+}
+.carousselText {
+  background-color: black;
+}
+
+//Media query
+
+@media (max-width: 768px) {
+  .titleNumb {
+    font-size: 80px;
+  }
+  .subTitleNumb {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .subtitleFalcon9 {
+    font-size: 20px;
+  }
+  .titleNumb {
+    font-size: 55px;
+  }
+  .subTitleNumb {
+    font-size: 18px;
+  }
+  .container07 {
+    p {
+      font-size: 20px;
+      width: 290px;
+      line-height: auto;
+    }
+  }
+  .container08 {
+    font-size: 20px;
+    p {
+      width: 280px;
+      margin-left: 1%;
+    }
+    table {
+      font-size: 18px;
+    }
+  }
+}
